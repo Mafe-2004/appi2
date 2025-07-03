@@ -1,0 +1,7 @@
+.anime{
+    box-shadow: 4px 4px 4px #8d7f6594;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
