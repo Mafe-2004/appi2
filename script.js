@@ -1,5 +1,5 @@
 async function getEmoji() {
-    const res  = await fetch("https://nekos.best/api/v2/hug?amount=20")
+    const res  = await fetch("https://nekos.best/api/v2/hug?amount=10")
     const anime = await res.json()
     animelist = ""
     anime.results.forEach(anime => {
